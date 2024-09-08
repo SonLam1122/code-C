@@ -1,0 +1,148 @@
+---
+NUMB:
+
+2. In ra trung bình cộng của các phần tử ở vị trí chẵn (0, 2, 4, 6,...).
+_
+3. Kiểm tra một số có căn bậc 2 là số nguyên hay không (perfect squares).
+_
+6. Nhập vào một số, nếu số đó là số nguyên tố thì in ra mã hexa của nó, nếu không thì in ra %d is not...
+_
+7. Nhập vào n số, loại bỏ các phần tử trùng lặp và sắp xếp lại dãy số từ bé đến lớn.
+_
+10. Nhập 7 số và in ra các số chẵn có số lần lặp lại nhiều nhất (số lần lặp lại trùng nhau thì in và sắp xếp từ lớn đến bé). Nếu không có số nào thì in ra chữ "Pew!!!"
+_
+11. Tính tích các chữ số của một số.
+_
+12. Tính tổng các chữ số của một số.
+_
+13. Tính tổng chữ số đầu và chữ số cuối của 1 chữ số.
+_
+16. Nhập n phần tử, tìm số chẵn và in ra ^2 của chúng.
+_
+17. Nhập n phần tử, tìm số nhỏ nhất thứ 2.
+_
+19. Kiểm tra số nhập vào xem có phải là lũy thừa của 2 hay không, nếu đúng in ra số mũ, nếu không in ra "%d is.....".
+_
+24. Nhập 2 số, in ra lần lượt Ước Chung Lớn Nhất và Bội Chung Nhỏ Nhất Giữa Chúng.
+_
+27. Nhập ma trận vuông n x n, tính tổng đường chéo chính của ma trận.
+_
+28. Kiểm tra xem mảng có tăng dần hay không. Nếu không in ra "0", nếu có in ra "1".
+_
+29. Kiểm tra xem số đó có phải là "perfect number" (là số có tổng các ước cộng lại bằng chính nó) hay không, nếu có thì in ra như output í.
+_
+32. Nhập 5 số nguyên, in ra tổng của các số chia hết cho 3 nhưng ko chia hết cho 5.
+_
+33. Nhập n số nguyên, tìm ra cặp số đầu - cuối đầu tiên có tổng bằng 15 và in ra vị trí của nó từ bé -> lớn.
+_
+34. Nhập n số nguyên, hoán đổi bị trí giữa số lớn nhất và số bé nhất trong chuỗi.
+_
+36. Tính tổng của 2 ma trận row x col.
+_
+39. Kiểm tra dãy n số nguyên nhập vào xem có phải là chuỗi đối xứng không? Nếu đúng in ra 1, sai in ra 0.
+_
+41. Điền vào 1 chuỗi 100 kí tự hãy, tìm các số lẻ và tính tổng của chúng.
+_
+42. Tính bù 2 của một 1 byte (8 bit).
+_
+44. Nhập vào 7 số, in ra số có hai chữ số được lặp lại nhiều nhất. Nếu không có bất kì số có 2 chữ số nào in ra dòng "..." (như output)
+_
+45. Nhập vào 7 số, in ra các số được lặp lại nhiều nhất và số lần lặp lại của chúng.
+_
+46. Nhập khoảng (a,b), tìm tổng của 2 số nguyên tố cuối cùng trong khoảng.
+_
+49. Nhập vào một dãy gồm n số, nhập m, tìm tổng của 2 số trong dãy đó có tổng bằng m và in ra vị trí của chúng trong dãy.
+_
+50. Nhập vào một số, tính tổng bình phương các chữ số của số đó, lặp lại với kết quả của chúng. Nếu cuối của vòng lặp xuất hiện kết quả bằng 1, in ra "True", nếu xuất hiện vòng lặp vô hạn, in ra "False".
+_
+52. Nhập vào một số, in ra các thừa số nguyên tố của số đó.
+_
+53. Liệt kê tất cả các số trong dãy Fibo nhỏ hơn n.
+_
+56. Ghép 2 dãy số lại với nhau, xóa bỏ phần tử trùng lặp và sắp xếp chúng từ bé -> lớn
+_
+57. Nhập vào dãy 7 số, in ra các khoảng liên tiếp nhau, nếu không có khoảng thì là số đơn lẻ.
+_
+58. Kiểm tra xem số được nhập vào có phải là ugly number (lá số có tích từ các số 2, 3 ,5. VD: 6 = 2 x 3; 30 = 2 x 3 x 5) không? 
+_
+59. Nhập vào một số n, nhập vào n số từ 0 -> n - lúc này sẽ bị thiếu 1 số - chương trình sẽ in ra số còn lại trong dãy từ 0 -> n đó.
+_
+61. Tính tổng của 2 phân số.
+_
+64. In ra hệ nhị phân của một số.
+_
+65. Nhập ba chuỗi s1, s2, s3. Nếu tìm thấy sự xuất hiện của chuỗi s2 trong s1 thì thay thế đoạn s2 xuất hiện lần cuối cùng trong s1 bằng s3, sau đó in ra s1.
+_
+66. Nhập số, đọc số đó theo tiếng Việt không dấu.
+_
+67. Nhập n số điện thoại di động ( độ dài từ 10 - 11 số bắt đầu từ số 0) hoặc số điện thoại bàn (gồm 2 - 4 số nằm trong ngoặc kép và 7 số nằm kế tiếp.). Đếm số lần xuất hiện số điện thoại bàn hoặc di động tùy đề bài.
+_
+69. Nhập vào n số (ví dụ 3 số 1, 2, 9); biến nó thành số thường, sau đó + 1 đơn vị, (lúc này nó sẽ là 130), sau đó in ra các số riêng lẻ (1, 3, 0).
+_
+71. Nhập vào n số, tìm vị trí được gọi là sâu nhất (vị trí sâu là vị trí mà 2 số đứng cạnh nó đều lớn hơn nó).
+---
+CHAR:
+
+1. Kiểm tra số lần chuỗi a xuất hiện trong chuỗi b.
+_
+4. In ra một dãy các kí tự ngẫu nhiên trong bảng chữ cái và không có chữ cái nào trùng nhau.
+_
+5_v1. Nhập vào n tên sau đó nhập kí tự cần tìm kiếm, chương trình sẽ tìm kiếm cái tên nào có chữ cái đầu là nó (chỉ viết hoa hoặc viết thường).
+_
+5_v2. Như 5_v1 nhưng có thể tìm kiếm cả chữ cái hoa lẫn chữ cái thường.
+_
+8. Tìm tất cả các chuỗi con được lặp lại trong chuỗi lớn và đảo ngược nó trong chuỗi lớn.
+_
+9. Nhập n kí tự, in ra 2 kí tự được lặp lại nhiều nhất, nếu số lần lặp lại bằng nhau, in theo thứ tự nhập của người dùng.
+_
+14. Nhập phần n phần tử, nhập số nguyên p. Xóa bỏ phần tử thứ p ra khỏi chuỗi.
+_
+15. Chuyển tất cả các chữ cái có vị trí chẵn trong chuỗi từ chữ thường thành chữ in.
+_
+18. Chuẩn hóa toàn bộ chuỗi (nghĩa là chuyển hết các kí tự từ in hoa thành in thường và ngược lại).
+_
+20. Kiểm tra xem mảng 'chữ' nhập vào có đối xứng hay không, nếu có in ra "0", nếu không in ra "1".
+_
+21. Phân tách họ và tên.
+_
+22. Nhập vào mảng n chữ số, in ra 2 mảng chẵn lẻ, ở các dòng riêng biệt.
+_
+23. Đảo ngược chuỗi.
+_
+25. Nhập n phần tử, chèn thêm 1 phần tử vào vị trí bất kì trong chuỗi (chèn thêm chứ không phải xóa đi rồi chèn).
+_
+26. Nhập chuỗi, xóa toàn bộ các kí tự không nằm trong bảng chữ cái (bao gồm số, khoảng trắng, kí tự đặc biệt).
+_
+30. Kiểm tra xem có bao nhiêu từ bắt đầu bằng chữ 'h' và kết thúc bằng chữ 'g'.
+_
+31. Đếm xem 3 chữ cái đầu tiên của chuỗi có bao nhiêu kí tự ( không bao gồm khoảng trắng và kí tự đặc biệt).
+_
+35. Nhập chuỗi, viết hoa 2 chữ cái đầu của mỗi từ (lưu ý giữ nguyên các dấu space).
+_
+37. Xóa tất cả kí tự không phải là số trong chuỗi.
+_
+38. Đếm số lượng các từ riêng biệt trong chuỗi.
+_
+40. Đếm số kí tự và số từ trong một chuỗi.
+_
+43. Nhập vào chuỗi có n phần tử (n là số lẻ), sau đó lấy ra 5 kí tự ở giữa.
+_
+47. Nhập vào 2 kí tự, in ra giá trị bit của nó, nếu không đủ 8 bit thì thêm số 0 vào cho đủ.
+_
+48. Nhập vào một chuỗi gồm các từ, in ra độ dài của từ cuối cùng.
+_
+51. Nhập vào một mật khẩu, kiểm tra xem mật khẩu có đủ mạnh không (nghĩa là bao gồm ít nhất 1 chữ cái viết HOA, một chữ số, một kí tự đặc biệt).
+_
+54. Ghép hai chuỗi lại với nhau.
+_
+55. Nhập vào các từ, in ra phần đầu của các từ nếu chúng được lặp lại.
+_
+60. Nhập vào dãy a, b. Kiểm tra xem các phần tử của dãy a có nằm trong dãy b không, nếu tất cả đều nằm trong b, in ra true và ngược lại.
+_
+61. Nhập một chuỗi, viết hoa chữ cái đầu của chuỗi đó.
+_
+63. Nhập một chuỗi gồm các từ, xóa tất cả khoảng trắng thừa, chỉ để lại 1 khoảng trắng giữa các từ.
+_
+68. Nhập một chuỗi và mã hóa nó dưới dạng số theo một quy tắc nhất định. (xem code để biết quy tắc)
+_
+70. Kiểm tra 1 chuỗi có phải là chuỗi palindrome hay không (đọc ngược xuôi đều giống nhau).

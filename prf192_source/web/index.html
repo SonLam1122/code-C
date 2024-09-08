@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="-fire_86891.ico" type="image/x-icon">
+    <title>clib.h</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+
+
+<body>
+    <div class="centered-text">#nhungkedangthatvong
+    </div>
+    </label>
+    </div>
+    <div class="navbar">
+        <span class="left-text">🍀🍀🍀🍀</span>
+        <a href="#" onclick="showLibrary('newwords')">new_words</a>
+        <a href="#" onclick="showLibrary('stdio')">stdio.h</a>
+        <a href="#" onclick="showLibrary('string')">string.h</a>
+        <a href="#" onclick="showLibrary('stdlib')">stdlib.h</a>
+        <a href="#" onclick="showLibrary('math')">math.h</a>
+    </div>
+
+    <div class="content">
+        <div id ="newwords" class="library">
+            <h2>new_words</h2>
+            <table border="1">
+                <tr>
+                    <th width="200px">Từ</th>
+                    <th width="600px">Nghĩa</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td> occurrence </td>
+                        <td> sự xuất hiện </td>
+                    </tr>
+                    <tr>
+                        <td> duplicated </td>
+                        <td> được lặp lại </td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td> normalize </td>
+                        <td> bình thường hóa ( thường là khiến cho các từ cách nhau bằng một dấu cách duy nhất) </td>
+                    </tr>
+                    <tr>
+                        <td>prime</td>
+                        <td>số nguyên tố</td>
+                    </tr>
+                    <tr>
+                        <td>even</td>
+                        <td>số chẵn</td>
+                    </tr>
+                    <tr>
+                        <td>odd</td>
+                        <td>số lẻ</td>
+                    </tr>
+                    <tr>
+                        <td>exponent</td>
+                        <td>số mũ</td>
+                    </tr>
+                    <tr>
+                        <td>power of n</td>
+                        <td>n^x</td>
+                    </tr>
+                    <tr>
+                        <td>representation of</td>
+                        <td>biểu diễn dưới dạng</td>
+                    </tr>
+                    <tr>
+                        <td>average</td>
+                        <td>trung bình cộng</td>
+                    </tr>
+                    <tr>
+                        <td>square</td>
+                        <td>bình phương</td>
+                    </tr>
+                    <tr>
+                        <td>palindrome</td>
+                        <td>xuôi ngược đều giống nhau</td>
+                    </tr>
+                    <tr>
+                        <td>synmetric</td>
+                        <td>đối xứng</td>
+                    </tr>
+                    <tr>
+                        <td>factorial</td>
+                        <td>giai thừa</td>
+                    </tr>
+                    <tr>
+                        <td>uppercase</td>
+                        <td>in hoa</td>
+                    </tr>
+                    <tr>
+                        <td>lowercase</td>
+                        <td>viết thường</td>
+                    </tr>
+                    <tr>
+                        <td>reversed</td>
+                        <td>đảo ngược</td>
+                    </tr>
+                    <tr>
+                        <td>adjacent</td>
+                        <td>liền kề</td>
+                    </tr>
+                    <tr>
+                        <td>frequency</td>
+                        <td>tần suất</td>
+                    </tr>
+                    <tr>
+                        <td>product</td>
+                        <td>tích</td>
+                    </tr>
+                    <tr>
+                        <td>forming</td>
+                        <td>hình thành</td>
+                    </tr>
+                    <tr>
+                        <td>obeys</td>
+                        <td>tuân theo</td>
+                    </tr>
+                    <tr>
+                        <td>divisible</td>
+                        <td>chia hết</td>
+                    </tr>
+                    <tr>
+                        <td>toggle</td>
+                        <td>chuyển đổi</td>
+                    </tr>
+                    <tr>
+                        <td>separated</td>
+                        <td>phân cách</td>
+                    </tr>
+                    <tr>
+                        <td>equivalent</td>
+                        <td>tương đương</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="stdio" class="library">
+            <h2>stdio.h</h2>
+            <p><strong>getchar()</strong>: đọc một kí tự được nhập vào bàn phím.</p>
+            <pre>
+    char ch;
+    printf("Nhập một ký tự: ");
+    ch = getchar();
+    //Nhập từ bàn phím 1 kí tự và nó sẽ được lưu vào biến ch.</pre>
+            <p><strong>gets()</strong>: nhập chuỗi từ bàn phím.</p>
+            <pre>
+    char name[50];
+    gets(name);
+    //Lưu ý: xài gets có thể gây tràn bộ nhớ vì nó ko kiểm tra độ dài của chuỗi.</pre>
+            <p><strong>fgets()</strong>: nhập chuỗi từ bàn phím hoặc một luồng dữ liệu.</p>
+            <pre>
+    char a[101];
+    //fgets sẽ để lại một kí tự NULL('\n'), ở cuối chuỗi vì vậy nó chỉ đọc nhập được 100 kí tự còn 1 kí tự là cho '\n'.
+    // Vì vậy nếu muốn nhập n kí tự, ta phải khai báo n+1 kí tự.
+    fgets (a, sizeof(a), stdin);</pre>
+            <p><strong>%#</strong>: in mã hexa hoặc octal có bao gồm tiền tố 0x</p>
+    <pre>
+    int number = 10;
+    printf ("%#x", number);
+    //Lưu ý: Tùy theo x viết thường hay X viết hoa thì mã hexa sẽ in thường hoặc in hoa theo nó.
+    //OUTPUT: 0xa</pre>
+        </div>
+        <div id="string" class="library">
+            <h2>string.h</h2>
+            <p><strong>strlen()</strong>: Trả về độ dài của chuỗi.</p>
+            <pre>
+    size_t length = strlen("Help");
+    // Output: 4</pre>
+            <p><strong>strcpy()</strong>: Sao chép từ chuỗi này sang chuỗi khác.</p>
+            <pre>
+    char a[6];
+    strcpy(a, "Stupid");
+    printf("%s", a);
+    // Output: Stupid</pre>
+            <p><strong>strstr()</strong>: Kiểm tra xem chuỗi con có xuất hiện trong chuỗi lớn hơn không.</p>
+            <pre>
+    char a[3] = "ngu";
+    char b[9] = "nguđầnngu";
+    strstr(a, b);
+    // strstr sẽ trả về giá trị NULL nếu có xuất hiện chuỗi a trong b.</pre>
+            <p><strong>strcat()</strong>: thêm một chuối vào cuối chuỗi khác.</p>
+            <pre>
+    char a[50] = "Vờ ";
+    char b[] = "cờ lờ!";
+    strcat(a, b);
+    printf("%s\n", a); // In ra "Vờ cờ lờ!"</pre>
+            <p><strong>strtok()</strong>: Sử dụng để chia chuỗi thành các phần tử con bằng kí tự được thiết lập.</p>
+            <pre>
+    char a[] = "PRF,CSI,MAE";
+    char b[] = ","; // Có thể không cần tới chuỗi này mà đưa vào trực tiếp trong hàm.
+        
+    char *token = strtok(a, b);
+    //strtok sẽ trả về giá trị NULL nếu phát hiện kí tự chia cắt đầu tiên.
+
+    while (token != NULL)
+    {
+        printf("%s\n", token);
+        token = strtok(NULL, b);
+        }</pre>
+            <p></p>
+            <pre>
+    OUTPUT:
+    PRF
+    CSI
+    MAE</pre>
+            <p><strong>strcmp()</strong>: So sánh hai chuỗi.</p>
+            <pre>
+    char a[] = "Dũng";
+    char b[] = "Whale";
+
+    strcmp(a, b);
+    //strcmp sẽ trả về giá trị 0 nếu hai chuỗi giống nhau và số âm nếu ngược lại.
+    //Output: số nào đó bé hơn 0?</pre>
+            <p><strong>strchr()</strong>: Tìm kí tự đầu tiên xuất hiện trong chuỗi.</p>
+            <pre>
+    char a[] = "Tommorrow";
+        
+    char *p = strchr(a, 'o');
+    //strchr sẽ trả về con trỏ trỏ đến ví trí củ kí tự nếu được tìm thấy, ngược lại nó sẽ trả về NULL.
+    if (p != NULL)
+    {
+        printf("%s\n", p);
+    }
+    //OUTPUT: ommorrow</pre>
+        <p><strong>strlwr()</strong>: là một hàm được sử dụng để chuyển đổi tất cả các ký tự trong một chuỗi thành ký tự thường (lowercase).</p>
+        <pre>
+    char a[] = "DungNGUVC";
+
+    strlwr(a);
+    printf("%s", a);
+    //OUTPUT: dungnguvc</pre>
+    <p><strong>strupr()</strong>: là hàm dùng để chuyển đổi tất cả các ký tự trong một chuỗi thành ký tự in hoa (uppercase).</p>
+        <pre>
+    char a[] = "DungNGUVC";
+
+    strupr(a);
+    printf("%s", a);
+    //OUTPUT: DUNGNGUVC</pre>
+    <p><strong>strcspn()</strong>: hàm này sử dụng để cắt chuỗi lớn từ vị trí sau khi chuỗi con được phát hiện.</p>
+    <pre>
+    char a[] = "Nhungcungngu, vc";
+    l = strcspn(a, ',');
+    //strcspn sẽ trả về số lượng ký tự từ đầu chuỗi a cho đến khi gặp ',' đầu tiên
+    //Kết hợp với con trỏ sẽ tốt hơn.
+    printf ("%d", l);
+    //OUTPUT: 12</pre>
+        </div>
+        <div id="stdlib" class="library">
+            <h2>stdlib.h</h2>
+            <p><strong>malloc()</strong>: được sử dụng để cấp phát bộ nhớ động (heap memory).</p>
+            <pre>
+    int *ptr = (int *)malloc(sizeof(int));
+    *ptr = 10;
+    free(ptr);</pre>
+            <p><strong>calloc()</strong>: cấp phát và khởi tạo bộ nhớ động
+                với tất cả các phần tử được thiết lập thành 0.</p>
+            <pre>
+    int *ptr = (int *)calloc(5, sizeof(int));
+    free(ptr);
+</pre>
+
+            <p><strong>realloc()</strong>: được sử dụng để thay đổi kích
+                thước của bộ nhớ đã cấp phát trước đó.</p>
+            <pre>
+    int *ptr = (int *)malloc(5 * sizeof(int));
+    ptr = (int *)realloc(ptr, 10 * sizeof(int));
+    free(ptr);
+</pre>
+
+            <p><strong>free()</strong>: được sử dụng để giải phóng bộ nhớ đã cấp phát
+                trước đó.</p>
+            <pre>
+    int *ptr = (int *)malloc(sizeof(int));
+    *ptr = 10;
+    free(ptr);
+</pre>
+            <p>Nhớ rằng khi sử dụng các hàm cấp phát bộ nhớ động như <strong>malloc</main></strong>,
+                <strong>calloc</strong>, và <strong>realloc</strong>, bạn cần phải giải phóng bộ nhớ bằng cách sử dụng
+                hàm <strong>free</strong> để tránh rò rỉ bộ nhớ
+            </p>
+
+        </div>
+        <div id="math" class="library">
+            <h2>math.h</h2>
+            <p><strong>abs()</strong>: Hàm tính giá trị tuyệt đối của một số nguyên.</p>
+            <pre>
+    int x = -5;
+    int absolute = abs(x);
+    printf("%d", absolute);
+    //OUTPUT: 5
+</pre>
+            <p><strong>sqrt()</strong>: Hàm tính căn bậc hai của một số thực.</p>
+            <pre>
+    double number = 16.0;
+    double squareRoot = sqrt(number);
+    printf("%d",squareRoot);
+    //OUTPUT: 4
+</pre>
+
+            <p><strong>pow()</strong>: Hàm tính lũy thừa của một số thực.</p>
+            <pre>
+    double base = 2.0;
+    double exponent = 3.0;
+    double result = pow(base, exponent);
+    printf("%.1lf" result);
+    //OUTPUT: 8.0
+</pre>
+
+            <p><strong>floor()</strong>: Hàm làm tròn số thực xuống (lấy phần nguyên).</p>
+            <pre>
+    double number = 4.9;
+    double roundedDown = floor(number);
+    printf("%.1lf"roundedDown);
+    //OUTPUT: 4.0
+</pre>
+
+
+            <p><strong>ceil()</strong>: Hàm làm tròn số thực lên (lấy phần nguyên gần nhất lớn hơn).</p>
+            <pre>
+    double number = 4.1;
+    double roundedUp = ceil(number);
+    printf("%.1lf"roundedUp);
+    //OUTPUT: 5.0
+</pre>
+
+
+            <p><strong>fabs()</strong>: Hàm tính giá trị tuyệt đối của một số thực.</p>
+            <pre>
+    double x = -7.3;
+    double absolute = fabs(x);
+    printf("%.1lf" absolute);
+    //OUTPUT: 7.3   
+</pre>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
